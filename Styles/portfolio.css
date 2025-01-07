@@ -9,13 +9,12 @@
 }
 
 /* shared style */
+.secondary-bg{
+    background-color:#FFF8F3 ;
+}
 .text-primary{
     color: #FD6E0A;
 }
-
-
-
-
 
 .dark-2{
     color:#474747
@@ -27,9 +26,17 @@
     color: white;
     padding: 18px 30px;
     border-radius: 5px;
+}
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
 
-
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 
 /* header */
@@ -67,6 +74,13 @@ nav li a {
     font-size: 20px;
 
 }
+
+/* banner-greetings */
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
 .banner{
     display: flex;
     justify-content: space-between;
@@ -75,11 +89,6 @@ nav li a {
 .banner-content{
     max-width: 580px;
 }
-/* banner-greetings */
-.banner-greetings{
-    font-size: 45px;
-    font-weight: 600;
-}
 
 .banner-title{
     font-weight: bold;
@@ -87,4 +96,26 @@ nav li a {
 }
 .banner-profile-pic{
     width: 580px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: 600;
 }
